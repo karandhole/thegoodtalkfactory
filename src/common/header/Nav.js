@@ -36,7 +36,7 @@ const Nav = () => {
                         <Link to="#">Donation</Link>
                         <ul>
                             <li className={location.pathname === '/donation' ? 'active' : ''}>
-                                <Link to="/donation">Donation</Link>
+                                <Link to="/donate-now">Donate Now</Link>
                             </li>
                             <li className={location.pathname === '/donation-list' ? 'active' : ''}>
                                 <Link to="/donation-list">Donation List</Link>

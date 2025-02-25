@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
 
 export default class DonateOne extends React.Component {
@@ -10,68 +10,68 @@ export default class DonateOne extends React.Component {
         if ($("#donate-amount__predefined").length) {
             let donateInput = $("#donate-amount");
             $("#donate-amount__predefined")
-              .find("li")
-              .on("click", function (e) {
-                e.preventDefault();
-                let amount = $(this).find("a").text();
-                donateInput.val(amount);
-                $("#donate-amount__predefined").find("li").removeClass("active");
-                $(this).addClass("active");
-            });
+                .find("li")
+                .on("click", function (e) {
+                    e.preventDefault();
+                    let amount = $(this).find("a").text();
+                    donateInput.val(amount);
+                    $("#donate-amount__predefined").find("li").removeClass("active");
+                    $(this).addClass("active");
+                });
         }
 
         if ($(".progress-levels .progress-box .bar-fill").length) {
             $(".progress-box .bar-fill").each(
-              function () {
-                $(".progress-box .bar-fill").appear(function () {
-                  var progressWidth = $(this).attr("data-percent");
-                  $(this).css("width", progressWidth + "%");
-                });
-              }, {
+                function () {
+                    $(".progress-box .bar-fill").appear(function () {
+                        var progressWidth = $(this).attr("data-percent");
+                        $(this).css("width", progressWidth + "%");
+                    });
+                }, {
                 accY: 0
-              }
+            }
             );
         }
 
         if ($(".count-bar").length) {
             $(".count-bar").appear(
-              function () {
-                var el = $(this);
-                var percent = el.data("percent");
-                $(el).css("width", percent).addClass("counted");
-              }, {
+                function () {
+                    var el = $(this);
+                    var percent = el.data("percent");
+                    $(el).css("width", percent).addClass("counted");
+                }, {
                 accY: -50
-              }
+            }
             );
         }
 
         if ($(".count-box").length) {
             $(".count-box").appear(
-              function () {
-                var $t = $(this),
-                  n = $t.find(".count-text").attr("data-stop"),
-                  r = parseInt($t.find(".count-text").attr("data-speed"), 10);
-        
-                if (!$t.hasClass("counted")) {
-                  $t.addClass("counted");
-                  $({
-                    countNum: $t.find(".count-text").text()
-                  }).animate({
-                    countNum: n
-                  }, {
-                    duration: r,
-                    easing: "linear",
-                    step: function () {
-                      $t.find(".count-text").text(Math.floor(this.countNum));
-                    },
-                    complete: function () {
-                      $t.find(".count-text").text(this.countNum);
+                function () {
+                    var $t = $(this),
+                        n = $t.find(".count-text").attr("data-stop"),
+                        r = parseInt($t.find(".count-text").attr("data-speed"), 10);
+
+                    if (!$t.hasClass("counted")) {
+                        $t.addClass("counted");
+                        $({
+                            countNum: $t.find(".count-text").text()
+                        }).animate({
+                            countNum: n
+                        }, {
+                            duration: r,
+                            easing: "linear",
+                            step: function () {
+                                $t.find(".count-text").text(Math.floor(this.countNum));
+                            },
+                            complete: function () {
+                                $t.find(".count-text").text(this.countNum);
+                            }
+                        });
                     }
-                  });
-                }
-              }, {
+                }, {
                 accY: 0
-              }
+            }
             );
         }
 
@@ -82,16 +82,16 @@ export default class DonateOne extends React.Component {
         if ($("#datepicker2").length) {
             $("#datepicker2").datepicker();
         }
-        
+
         if ($("#datepicker-inline").length) {
-        $("#datepicker-inline").datepicker();
+            $("#datepicker-inline").datepicker();
         }
-    
+
         $('input[name="time"]').ptTimeSelect();
-          
+
     }
-    render(){
-        let publicUrl = process.env.PUBLIC_URL+'/'
+    render() {
+        let publicUrl = process.env.PUBLIC_URL + '/'
         return (
             <>
                 <section className="donate-now">
@@ -99,7 +99,7 @@ export default class DonateOne extends React.Component {
                         <div className="row">
                             <div className="col-xl-8 col-lg-7">
                                 <div className="donate-now__left">
-                                    <div className="donate-now__enter-donation">
+                                    {/* <div className="donate-now__enter-donation">
                                         <h3 className="donate-now__title">Enter Your Donation</h3>
                                         <div className="donate-now__enter-donation-input">
                                             <select  className="selectpicker">
@@ -109,8 +109,8 @@ export default class DonateOne extends React.Component {
                                             </select>
                                             <input type="text" name="donation-money" placeholder="Enter amount" />
                                         </div>
-                                    </div>
-                                    <div className="donate-now__personal-info-box">
+                                    </div> */}
+                                    {/* <div className="donate-now__personal-info-box">
                                         <h3 className="donate-now__title">Personal Info</h3>
                                         <form className="donate-now__personal-info-form">
                                             <div className="row">
@@ -159,11 +159,12 @@ export default class DonateOne extends React.Component {
                                                 </div>
                                             </div>
                                         </form>
-                                    </div>
+                                    </div> */}
                                     <div className="donate-now__payment-info">
-                                        <h3 className="donate-now__title">Payment Info</h3>
+
+                                        <h3 className="donate-now__title">Empowering voices, transforming lives—support meaningful conversations today!</h3>
                                         <form className="donate-now__payment-info-form">
-                                            <div className="row">
+                                            {/* <div className="row">
                                                 <div className="col-xl-6">
                                                     <div className="donate-now__payment-info-input">
                                                         <input type="text" placeholder="Card Number" name="number" />
@@ -199,15 +200,26 @@ export default class DonateOne extends React.Component {
                                                         </Form.Select>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
+                                            {/* <div className="donate-now__payment-info-btn-box">
+                                              <button type="submit" className="thm-btn donate-now__payment-info-btn">Donate now</button>
+                                            </div> */}
+
                                             <div className="donate-now__payment-info-btn-box">
-                                                <button type="submit" className="thm-btn donate-now__payment-info-btn">Donate now</button>
+                                                <a
+                                                    href="https://pages.razorpay.com/thegoodtalkfactoryfoundation"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="thm-btn donate-now__payment-info-btn"
+                                                >
+                                                    Donate now
+                                                </a>
                                             </div>
                                         </form>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-5">
+                            {/* <div className="col-xl-4 col-lg-5">
                                 <div className="donate-now__right">
                                     <div className="donate-now__causes">
                                         <div className="donate-now__causes-img">
@@ -263,7 +275,7 @@ export default class DonateOne extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>

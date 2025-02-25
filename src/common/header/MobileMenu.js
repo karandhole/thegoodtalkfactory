@@ -71,11 +71,17 @@ const menuData = [
         iconOpened: <CgChevronDown />,
 
         subNav: [
+            
             {
-                title: 'Donation',
-                path: '/donation',
-                cName: 'sub-nav',
+                title: 'Donate Now',
+                path: '/donate-now',
             },
+            
+            // {
+            //     title: 'Donation',
+            //     path: '/donation',
+            //     cName: 'sub-nav',
+            // },
             {
                 title: 'Donation List',
                 path: '/donation-list',
@@ -85,10 +91,7 @@ const menuData = [
                 title: 'Donation Details',
                 path: '/donation-details',
             },
-            {
-                title: 'Donate Now',
-                path: '/donate-now',
-            },
+          
         ],
     },
 
