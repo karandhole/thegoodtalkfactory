@@ -35,7 +35,7 @@ export default class GalleryOne extends React.Component {
               }}
               className="gallery-slider"
             >
-              {["gallery1.JPG", "gallery2.JPG", "gallery3.JPG", "gallery4.JPG", "gallery5.JPG", "gallery6.JPG"].map(
+              {["gallery1.jpg", "gallery2.JPG", "gallery3.JPG", "gallery4.JPG", "gallery5.JPG", "gallery6.JPG"].map(
                 (image, index) => (
                   <SwiperSlide key={index}>
                     <div className="gallery-page__single">
