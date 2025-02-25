@@ -20,7 +20,7 @@ export default class TeamFour extends React.Component {
                                         <img src={publicUrl+"assets/images/team/core/core1.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Raghu Dutt </Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Raghu Dutt </Link></h4>
                                         <p className="team-one__title">Founder</p>
                                                     
                                     </div>
@@ -39,7 +39,7 @@ export default class TeamFour extends React.Component {
                                         <img src={publicUrl+"assets/images/team/core/core2.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Swetha Ch</Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Swetha Ch</Link></h4>
                                         <p className="team-one__title">Program Manager - TGTF Vidya</p>
                                         
                                     </div>
@@ -52,7 +52,7 @@ export default class TeamFour extends React.Component {
                                         <img src={publicUrl+"assets/images/team/core/core3.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Kalyan N</Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Kalyan N</Link></h4>
                                         <p className="team-one__title">Lead Coordinator - TGTF activities</p>
                                        
                                     </div>
@@ -65,7 +65,7 @@ export default class TeamFour extends React.Component {
                                         <img src={publicUrl+"assets/images/team/team-1-4.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Venkata Sudheer Kumar Bellapu</Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Venkata Sudheer Kumar Bellapu</Link></h4>
                                         <p className="team-one__title">Joint Secretary</p>
                                         
                                     </div>
@@ -78,7 +78,7 @@ export default class TeamFour extends React.Component {
                                         <img src={publicUrl+"assets/images/team/team-1-5.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Sri Manjari Vardhinedi</Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Sri Manjari Vardhinedi</Link></h4>
                                         <p className="team-one__title"> Treasurer</p>
                                        
                                     </div>
@@ -91,7 +91,7 @@ export default class TeamFour extends React.Component {
                                         <img src={publicUrl+"assets/images/team/team-1-6.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Mike Hardson</Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Mike Hardson</Link></h4>
                                         <p className="team-one__title">Fundraise</p>
                                        
                                     </div>

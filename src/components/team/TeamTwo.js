@@ -17,10 +17,10 @@ export default class TeamTwo extends React.Component {
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
-                                        <img src={publicUrl+"assets/images/team/team-1-1.jpg"} alt="" />
+                                        <img src={publicUrl+"assets/images/team/volunteer/1.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Ishita Kumari </Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Charitha  </Link></h4>
                                         {/* <p className="team-one__title">Managing Trustee</p> */}
                                                       
                                     </div>
@@ -36,10 +36,10 @@ export default class TeamTwo extends React.Component {
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
-                                        <img src={publicUrl+"assets/images/team/team-1-2.jpg"} alt="" />
+                                        <img src={publicUrl+"assets/images/team/volunteer/2.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Kaushik B</Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Dhanraj </Link></h4>
                                         {/* <p className="team-one__title">President</p> */}
                                         
                                     </div>
@@ -49,10 +49,10 @@ export default class TeamTwo extends React.Component {
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
-                                        <img src={publicUrl+"assets/images/team/team-1-3.jpg"} alt="" />
+                                        <img src={publicUrl+"assets/images/team/volunteer/3.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Mani Deepika </Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Harshitha </Link></h4>
                                         {/* <p className="team-one__title">Secretary</p> */}
                                         
                                     </div>
@@ -62,23 +62,23 @@ export default class TeamTwo extends React.Component {
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
-                                        <img src={publicUrl+"assets/images/team/team-1-4.jpg"} alt="" />
+                                        <img src={publicUrl+"assets/images/team/volunteer/4.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Sai Kumar</Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Ishita Kumari </Link></h4>
                                         {/* <p className="team-one__title">Joint Secretary</p> */}
                                         
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="500ms">
+                           <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="500ms">
                            
                                 <div className="team-one__single">
                                     <div className="team-one__img">
-                                        <img src={publicUrl+"assets/images/team/team-1-5.jpg"} alt="" />
+                                        <img src={publicUrl+"assets/images/team/volunteer/5.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Sri Manjari Vardhinedi</Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Kaushik B</Link></h4>
                                        
                                         
                                     </div>
@@ -88,15 +88,41 @@ export default class TeamTwo extends React.Component {
                           
                                 <div className="team-one__single">
                                     <div className="team-one__img">
-                                        <img src={publicUrl+"assets/images/team/team-1-6.jpg"} alt="" />
+                                        <img src={publicUrl+"assets/images/team/volunteer/6.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Mike Hardson</Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Mani Deepika </Link></h4>
                                    
                                        
                                     </div>
                                 </div>
-                            </div> */}
+                            </div> 
+                            <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="600ms">
+                          
+                                <div className="team-one__single">
+                                    <div className="team-one__img">
+                                        <img src={publicUrl+"assets/images/team/volunteer/7.jpg"} alt="" />
+                                    </div>
+                                    <div className="team-one__content">
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Pranavi  </Link></h4>
+                                   
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="600ms">
+                          
+                                <div className="team-one__single">
+                                    <div className="team-one__img">
+                                        <img src={publicUrl+"assets/images/team/volunteer/8.jpg"} alt="" />
+                                    </div>
+                                    <div className="team-one__content">
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Sai Kumar </Link></h4>
+                                   
+                                       
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>

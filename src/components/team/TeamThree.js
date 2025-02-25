@@ -17,10 +17,10 @@ export default class TeamThree extends React.Component {
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
-                                        <img src={publicUrl+"assets/images/team/team-1-1.jpg"} alt="" />
+                                        <img src={publicUrl+"assets/images/team/advisor/1.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Sreedevi Devireddy </Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Sreedevi Devireddy </Link></h4>
                                         {/* <p className="team-one__title">Managing Trustee</p> */}
                                                   
                                     </div>
@@ -36,10 +36,10 @@ export default class TeamThree extends React.Component {
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
-                                        <img src={publicUrl+"assets/images/team/team-1-2.jpg"} alt="" />
+                                        <img src={publicUrl+"assets/images/team/advisor/2.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Vani Kokila</Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL +`#` }>Vani Kokila</Link></h4>
                                         {/* <p className="team-one__title">President</p> */}
                                         
                                     </div>
