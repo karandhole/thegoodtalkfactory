@@ -63,7 +63,7 @@ export default class TeamOne extends React.Component {
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
-                                        <img src={publicUrl+"assets/images/team/trustee/trustee1.JPG"} alt="" />
+                                        <img src={publicUrl+"assets/images/team/trustee/trustee1.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
                                         <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Sudheer Kumar  </Link></h4>
