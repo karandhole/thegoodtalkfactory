@@ -100,7 +100,7 @@ const menuData = [
 
     {
         title: 'Blog',
-        path: '/blog-v-1',
+        path: '/',
 
         iconClosed: <CgChevronLeft />,
         iconOpened: <CgChevronDown />,

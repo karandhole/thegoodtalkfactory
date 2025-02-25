@@ -47,7 +47,7 @@ const Nav = () => {
                         <Link to="/events">Events</Link>
                     </li>
                     <li className={`dropdown ${location.pathname.startsWith('/blog-v-1') ? 'active' : ''}`}>
-                        <Link to="/blog-v-1">Blog</Link>
+                        <Link to="/">Blog</Link>
                         {/* <ul>
                             <li className={location.pathname === '/blog-v-1' ? 'active' : ''}>
                                 <Link to="/blog-v-1">Blog V-1</Link>
