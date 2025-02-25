@@ -11,6 +11,7 @@ import TestimonialOne from '../components/testimonial/TestimonialOne';
 import BlogOne from '../components/blog/BlogOne';
 import FooterOne from '../common/footer/FooterOne';
 import FooterTwo from '../common/footer/FooterTwo';
+import CtaOne from '../components/cta/CtaOne';
 
 const About = () => {
     return (
@@ -22,13 +23,16 @@ const About = () => {
             />
             <AboutOne />
             <CounterOne />
-            {/* <ProjectOne />
-            <SkillsOne /> */}
-            <TeamOne />
+            {/* <ProjectOne />  */}
+            {/* <SkillsOne /> */}
+            {/* <TeamOne /> */}
+
+            <CtaOne/>
             <VideoOne />
             {/* <TestimonialOne /> */}
             {/* <BlogOne /> */}
             <FooterTwo />
+
         </>
     )
 }

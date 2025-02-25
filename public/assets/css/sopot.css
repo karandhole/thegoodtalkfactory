@@ -6376,7 +6376,7 @@ a.sc-hLBbgP {
 .cta-one {
     position: relative;
     display: block;
-    background-color: var(--sopot-base);
+    background-color: aliceblue;
     padding: 101px 0;
     z-index: 1;
 }
@@ -6400,7 +6400,7 @@ a.sc-hLBbgP {
     width: 125px;
     border-radius: 50%;
     font-size: 65px;
-    background-color: var(--sopot-white);
+    background-color: black;
     color: var(--sopot-base);
     display: flex;
     align-items: center;
@@ -6436,7 +6436,7 @@ a.sc-hLBbgP {
 
 .cta-one__title {
     font-size: 40px;
-    color: var(--sopot-white);
+    color: black;
     line-height: 50px;
     font-weight: 500;
     margin-left: 40px;

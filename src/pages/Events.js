@@ -16,7 +16,7 @@ const Events = () => {
                 currentPage="Events" 
             />
             <RecentEventsThree />
-            <CausesOne />
+            {/* <CausesOne /> */}
             <FooterTwo />
         </>
     )
