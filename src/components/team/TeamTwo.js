@@ -20,14 +20,9 @@ export default class TeamTwo extends React.Component {
                                         <img src={publicUrl+"assets/images/team/team-1-1.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Raghu Dutt </Link></h4>
-                                        <p className="team-one__title">Managing Trustee</p>
-                                        <div className="team-one__social">
-                                            <a href="#"><i className="fab fa-twitter"></i></a>
-                                            <a href="#"><i className="fab fa-facebook"></i></a>
-                                            <a href="#"><i className="fab fa-pinterest-p"></i></a>
-                                            <a href="#"><i className="fab fa-instagram"></i></a>
-                                        </div>               
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Ishita Kumari </Link></h4>
+                                        {/* <p className="team-one__title">Managing Trustee</p> */}
+                                                      
                                     </div>
                                 </div>
                             </div>
@@ -44,14 +39,9 @@ export default class TeamTwo extends React.Component {
                                         <img src={publicUrl+"assets/images/team/team-1-2.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Satya Malladi</Link></h4>
-                                        <p className="team-one__title">President</p>
-                                        <div className="team-one__social">
-                                            <a href="#"><i className="fab fa-twitter"></i></a>
-                                            <a href="#"><i className="fab fa-facebook"></i></a>
-                                            <a href="#"><i className="fab fa-pinterest-p"></i></a>
-                                            <a href="#"><i className="fab fa-instagram"></i></a>
-                                        </div>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Kaushik B</Link></h4>
+                                        {/* <p className="team-one__title">President</p> */}
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -62,14 +52,9 @@ export default class TeamTwo extends React.Component {
                                         <img src={publicUrl+"assets/images/team/team-1-3.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Sri Madhuri Vardhinedi</Link></h4>
-                                        <p className="team-one__title">Secretary</p>
-                                        <div className="team-one__social">
-                                            <a href="#"><i className="fab fa-twitter"></i></a>
-                                            <a href="#"><i className="fab fa-facebook"></i></a>
-                                            <a href="#"><i className="fab fa-pinterest-p"></i></a>
-                                            <a href="#"><i className="fab fa-instagram"></i></a>
-                                        </div>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Mani Deepika </Link></h4>
+                                        {/* <p className="team-one__title">Secretary</p> */}
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -80,53 +65,38 @@ export default class TeamTwo extends React.Component {
                                         <img src={publicUrl+"assets/images/team/team-1-4.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Venkata Sudheer Kumar Bellapu</Link></h4>
-                                        <p className="team-one__title">Joint Secretary</p>
-                                        <div className="team-one__social">
-                                            <a href="#"><i className="fab fa-twitter"></i></a>
-                                            <a href="#"><i className="fab fa-facebook"></i></a>
-                                            <a href="#"><i className="fab fa-pinterest-p"></i></a>
-                                            <a href="#"><i className="fab fa-instagram"></i></a>
-                                        </div>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Sai Kumar</Link></h4>
+                                        {/* <p className="team-one__title">Joint Secretary</p> */}
+                                        
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="500ms">
-                                {/* Team One Single */}
+                            {/* <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="500ms">
+                           
                                 <div className="team-one__single">
                                     <div className="team-one__img">
                                         <img src={publicUrl+"assets/images/team/team-1-5.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
                                         <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Sri Manjari Vardhinedi</Link></h4>
-                                        <p className="team-one__title"> Treasurer</p>
-                                        <div className="team-one__social">
-                                            <a href="#"><i className="fab fa-twitter"></i></a>
-                                            <a href="#"><i className="fab fa-facebook"></i></a>
-                                            <a href="#"><i className="fab fa-pinterest-p"></i></a>
-                                            <a href="#"><i className="fab fa-instagram"></i></a>
-                                        </div>
+                                       
+                                        
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="600ms">
-                                {/* Team One Single */}
+                          
                                 <div className="team-one__single">
                                     <div className="team-one__img">
                                         <img src={publicUrl+"assets/images/team/team-1-6.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
                                         <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Mike Hardson</Link></h4>
-                                        <p className="team-one__title">Fundraise</p>
-                                        <div className="team-one__social">
-                                            <a href="#"><i className="fab fa-twitter"></i></a>
-                                            <a href="#"><i className="fab fa-facebook"></i></a>
-                                            <a href="#"><i className="fab fa-pinterest-p"></i></a>
-                                            <a href="#"><i className="fab fa-instagram"></i></a>
-                                        </div>
+                                   
+                                       
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
