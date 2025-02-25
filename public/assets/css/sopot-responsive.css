@@ -441,7 +441,9 @@
     }
 
     .about-one__small-img {
-        display: none;
+        /* display: none; */
+        right: -10px;
+       
     }
 
     .about-one__right {

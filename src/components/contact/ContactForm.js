@@ -56,7 +56,7 @@ export default class ContactForm extends React.Component {
                             <div className="col-xl-6 col-lg-6">
                                 <div className="contact-page__right">
                                     <div className="contact-page__img">
-                                        <img src={publicUrl+"assets/images/resources/contact-page-img-1.jpg"} alt="" />
+                                        <img src={publicUrl+"assets/images/services/download.png"} alt="" />
                                         <div className="contact-page__img-shape">
                                             <img src={publicUrl+"assets/images/shapes/contact-page-img-shape.png"} alt="" />
                                         </div>
