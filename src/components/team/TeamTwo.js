@@ -13,7 +13,7 @@ export default class TeamTwo extends React.Component {
                             <h2 className="section-title__title">Meet Our Volunteer Team.</h2>
                         </div>
                         <div className="row">
-                            <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay="100ms">
+                            <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="100ms">
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
@@ -37,7 +37,7 @@ export default class TeamTwo extends React.Component {
 
 
 
-                            <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                            <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="200ms">
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
@@ -55,7 +55,7 @@ export default class TeamTwo extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInRight" data-wow-delay="300ms">
+                            <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
@@ -73,7 +73,7 @@ export default class TeamTwo extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay="400ms">
+                            <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="400ms">
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
@@ -91,7 +91,7 @@ export default class TeamTwo extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="500ms">
+                            <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="500ms">
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
@@ -109,7 +109,7 @@ export default class TeamTwo extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInRight" data-wow-delay="600ms">
+                            <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="600ms">
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">

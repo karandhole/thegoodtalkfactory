@@ -3185,8 +3185,8 @@ a.sc-hLBbgP {
     position: relative;
     display: block;
     overflow: hidden;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 2px;
+    margin-left: 2px;
 }
 
 .team-one__img:before {
@@ -3196,24 +3196,24 @@ a.sc-hLBbgP {
     bottom: 0px;
     width: 50%;
     height: 50%;
-    background-color: rgba(var(--sopot-base-rgb), .70);
+    /* background-color: rgba(var(--sopot-base-rgb), .70);
     visibility: hidden;
     opacity: 0;
     transform-style: preserve-3d;
-    transform: perspective(370px) translateY(100%);
-    transform-origin: left;
+    transform: perspective(370px) translateY(100%); */
+    /* transform-origin: left;
     transition: all 900ms ease;
     -moz-transition: all 900ms ease;
     -webkit-transition: all 900ms ease;
     -ms-transition: all 900ms ease;
-    -o-transition: all 900ms ease;
+    -o-transition: all 900ms ease; */
     z-index: 1;
 }
 
 .team-one__single:hover .team-one__img:before {
-    visibility: visible;
+    /* visibility: visible;
     opacity: 1;
-    transform: perspective(370px) translateY(0%);
+    transform: perspective(370px) translateY(0%); */
 }
 
 .team-one__img:after {
@@ -3223,7 +3223,7 @@ a.sc-hLBbgP {
     right: 0px;
     width: 50%;
     height: 50%;
-    background-color: rgba(var(--sopot-base-rgb), .70);
+    /* background-color: rgba(var(--sopot-base-rgb), .70);
     visibility: hidden;
     opacity: 0;
     transform-style: preserve-3d;
@@ -3233,7 +3233,7 @@ a.sc-hLBbgP {
     -moz-transition: all 900ms ease;
     -webkit-transition: all 900ms ease;
     -ms-transition: all 900ms ease;
-    -o-transition: all 900ms ease;
+    -o-transition: all 900ms ease; */
     z-index: 1;
 }
 

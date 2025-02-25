@@ -13,60 +13,69 @@ export default class TeamOne extends React.Component {
                             <h2 className="section-title__title">Meet Our Trustee.</h2>
                         </div>
                         <div className="row">
-                            <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="100ms">
+
+
+
+                        <div className="col-lg-3 col-md-6 col-sm-12  wow fadeInRight" data-wow-delay="100ms">
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
-                                        <img src={publicUrl+"assets/images/team/team-1-1.jpg"} alt="" />
+                                        <img src={publicUrl+"assets/images/team/trustee/trustee4.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Raghu Dutt </Link></h4>
-                                        <p className="team-one__title">Managing Trustee</p>
-                                        <div className="team-one__social">
-                                            <a href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
-                                            <a href="https://facebook.com/"><i className="fab fa-facebook"></i></a>
-                                            <a href="https://pinterest.com/"><i className="fab fa-pinterest-p"></i></a>
-                                            <a href="https://instagram.com/"><i className="fab fa-instagram"></i></a>
-                                        </div>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Satya Malladi  </Link></h4>
+                                        <p className="team-one__title">President</p>
+                                       
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                            
+                            <div className="col-lg-3 col-md-6 col-sm-12  wow fadeInUp" data-wow-delay="200ms">
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
-                                        <img src={publicUrl+"assets/images/team/team-1-2.jpg"} alt="" />
+                                        <img src={publicUrl+"assets/images/team/trustee/trustee2.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Satya Malladi </Link></h4>
-                                        <p className="team-one__title"> President</p>
-                                        <div className="team-one__social">
-                                            <a href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
-                                            <a href="https://facebook.com/"><i className="fab fa-facebook"></i></a>
-                                            <a href="https://pinterest.com/"><i className="fab fa-pinterest-p"></i></a>
-                                            <a href="https://instagram.com/"><i className="fab fa-instagram"></i></a>
-                                        </div>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Sri Manjari   </Link></h4>
+                                        <p className="team-one__title">  Treasurer</p>
+                                        
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-4 wow fadeInRight" data-wow-delay="100ms">
+                            <div className="col-lg-3 col-md-6 col-sm-12  wow fadeInRight" data-wow-delay="100ms">
                                 {/* Team One Single */}
                                 <div className="team-one__single">
                                     <div className="team-one__img">
-                                        <img src={publicUrl+"assets/images/team/team-1-3.jpg"} alt="" />
+                                        <img src={publicUrl+"assets/images/team/trustee/trustee3.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Sri Madhuri Vardhinedi </Link></h4>
-                                        <p className="team-one__title">Secretary</p>
-                                        <div className="team-one__social">
-                                            <a href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
-                                            <a href="https://facebook.com/"><i className="fab fa-facebook"></i></a>
-                                            <a href="https://pinterest.com/"><i className="fab fa-pinterest-p"></i></a>
-                                            <a href="https://instagram.com/"><i className="fab fa-instagram"></i></a>
-                                        </div>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Sri Madhuri  </Link></h4>
+                                        <p className="team-one__title"> Secretary</p>
+                                        
                                     </div>
                                 </div>
                             </div>
+
+
+
+                            <div className="col-lg-3 col-md-6 col-sm-12  wow fadeInLeft" data-wow-delay="100ms">
+                                {/* Team One Single */}
+                                <div className="team-one__single">
+                                    <div className="team-one__img">
+                                        <img src={publicUrl+"assets/images/team/trustee/trustee1.JPG"} alt="" />
+                                    </div>
+                                    <div className="team-one__content">
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Sudheer Kumar  </Link></h4>
+                                        <p className="team-one__title">Joint Secretary </p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            
 
                             
                         </div>

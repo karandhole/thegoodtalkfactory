@@ -23,7 +23,7 @@ export default class GalleryOne extends React.Component {
               spaceBetween={20}
               slidesPerView={1}
               loop={true}
-              autoplay={{ delay: 3000 }}
+              autoplay={{ delay: 2000 }}
               pagination={false} // Removed pagination bullets
               navigation={{
                 nextEl: ".custom-swiper-button-next",
