@@ -20,7 +20,7 @@ export default class AboutThree extends React.Component {
                                 {/* Team One Single */}
                                 <div className="team-one__single" style={{backgroundColor:"aliceblue"}}>
                                     <div className="team-one__img">
-                                        <img src={publicUrl+"assets/images/services/about1.1.JPG"} alt="" />
+                                        <img src={publicUrl+"assets/images/services/about1.1.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
                                         <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/contact`}>Want to share your story or perform? </Link></h4>
