@@ -16,8 +16,8 @@ const Contact = () => {
                 currentPage="Contact" 
             />
             <ContactForm />
-            <ContactInfo />
-            <ContactMap />
+            {/* <ContactInfo /> */}
+            {/* <ContactMap /> */}
             <FooterTwo />
         </>
     )

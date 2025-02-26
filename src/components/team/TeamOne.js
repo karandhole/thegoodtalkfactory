@@ -6,11 +6,11 @@ export default class TeamOne extends React.Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
         return (
             <>
-                <section className="team-one">
+                <section className="team-one" style={{backgroundColor:"aliceblue"}}>
                     <div className="container">
                         <div className="section-title text-center">
-                            <span className="section-title__tagline">Trustee</span>
-                            <h2 className="section-title__title">Meet Our Trustee.</h2>
+                            <span className="section-title__tagline">Board of Trustees</span>
+                          
                         </div>
                         <div className="row">
 

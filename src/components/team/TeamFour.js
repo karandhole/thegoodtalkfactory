@@ -6,11 +6,11 @@ export default class TeamFour extends React.Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
         return (
             <>
-                <section className="team-one">
+                <section className="team-one" style={{backgroundColor:"aliceblue"}}>
                     <div className="container">
                         <div className="section-title text-center">
-                            <span className="section-title__tagline">Core Team</span>
-                            <h2 className="section-title__title">Meet Our Core Team.</h2>
+                            <span className="section-title__tagline">Core Team Members</span>
+                            {/* <h2 className="section-title__title">Meet Our Core Team.</h2> */}
                         </div>
                         <div className="row">
                             <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="100ms">
@@ -39,7 +39,7 @@ export default class TeamFour extends React.Component {
                                         <img src={publicUrl+"assets/images/team/core/core2.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Swetha Ch</Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Swetha</Link></h4>
                                         <p className="team-one__title">Program Manager - TGTF Vidya</p>
                                         
                                     </div>
@@ -52,7 +52,7 @@ export default class TeamFour extends React.Component {
                                         <img src={publicUrl+"assets/images/team/core/core3.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Kalyan N</Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Kalyan </Link></h4>
                                         <p className="team-one__title">Lead Coordinator - TGTF activities</p>
                                        
                                     </div>

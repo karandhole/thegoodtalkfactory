@@ -6,11 +6,11 @@ export default class TeamTwo extends React.Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
         return (
             <>
-                <section className="team-one">
+                <section className="team-one" style={{backgroundColor:"aliceblue"}}>
                     <div className="container">
                         <div className="section-title text-center">
-                            <span className="section-title__tagline">Expert Team</span>
-                            <h2 className="section-title__title">Meet Our Volunteer Team.</h2>
+                            <span className="section-title__tagline">Volunteers/Interns Team</span>
+                            {/* <h2 className="section-title__title">Meet Our Volunteer Team.</h2> */}
                         </div>
                         <div className="row">
                             <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="100ms">
@@ -32,19 +32,7 @@ export default class TeamTwo extends React.Component {
 
 
 
-                            <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="200ms">
-                                {/* Team One Single */}
-                                <div className="team-one__single">
-                                    <div className="team-one__img">
-                                        <img src={publicUrl+"assets/images/team/volunteer/2.jpg"} alt="" />
-                                    </div>
-                                    <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Dhanraj </Link></h4>
-                                        {/* <p className="team-one__title">President</p> */}
-                                        
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
                                 {/* Team One Single */}
                                 <div className="team-one__single">
@@ -78,7 +66,7 @@ export default class TeamTwo extends React.Component {
                                         <img src={publicUrl+"assets/images/team/volunteer/5.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Kaushik B</Link></h4>
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Kaushik </Link></h4>
                                        
                                         
                                     </div>
@@ -120,6 +108,20 @@ export default class TeamTwo extends React.Component {
                                         <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Sai Kumar </Link></h4>
                                    
                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="200ms">
+                                {/* Team One Single */}
+                                <div className="team-one__single">
+                                    <div className="team-one__img">
+                                        <img src={publicUrl+"assets/images/team/volunteer/2.jpg"} alt="" />
+                                    </div>
+                                    <div className="team-one__content">
+                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `#`}>Dhanraj </Link></h4>
+                                        {/* <p className="team-one__title">President</p> */}
+                                        
                                     </div>
                                 </div>
                             </div>

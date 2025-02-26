@@ -10,10 +10,10 @@ const CoreTeam = () => {
     return (
         <>
             <HeaderOne />
-            <Breadcrumb 
+            {/* <Breadcrumb 
                 heading="Team"
                 currentPage="Team" 
-            />
+            /> */}
             <TeamFour />
             <FooterTwo />
         </>

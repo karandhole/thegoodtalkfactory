@@ -9,10 +9,10 @@ const Team = () => {
     return (
         <>
             <HeaderOne />
-            <Breadcrumb 
+            {/* <Breadcrumb 
                 heading="Team"
                 currentPage="Team" 
-            />
+            /> */}
             <TeamTwo />
             <FooterTwo />
         </>

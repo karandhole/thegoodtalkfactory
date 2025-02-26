@@ -10,10 +10,10 @@ const Trustee = () => {
     return (
         <>
             <HeaderOne />
-            <Breadcrumb 
+            {/* <Breadcrumb 
                 heading="Team"
                 currentPage="Team" 
-            />
+            /> */}
             <TeamOne />
             <FooterTwo />
         </>

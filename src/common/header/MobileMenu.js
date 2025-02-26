@@ -82,15 +82,15 @@ const menuData = [
             //     path: '/donation',
             //     cName: 'sub-nav',
             // },
-            {
-                title: 'Donation List',
-                path: '/donation-list',
-                cName: 'sub-nav',
-            },
-            {
-                title: 'Donation Details',
-                path: '/donation-details',
-            },
+            // {
+            //     title: 'Donation List',
+            //     path: '/donation-list',
+            //     cName: 'sub-nav',
+            // },
+            // {
+            //     title: 'Donation Details',
+            //     path: '/donation-details',
+            // },
           
         ],
     },
@@ -101,38 +101,15 @@ const menuData = [
     },
 
 
-    {
-        title: 'Blog',
-        path: '/',
+    // {
+    //     title: 'Blog',
+    //     path: '/',
 
-        iconClosed: <CgChevronLeft />,
-        iconOpened: <CgChevronDown />,
+    //     iconClosed: <CgChevronLeft />,
+    //     iconOpened: <CgChevronDown />,
 
-        // subNav: [
-        //     {
-        //         title: 'Blog V-1',
-        //         path: '/blog-v-1',
-        //         cName: 'sub-nav',
-        //     },
-        //     {
-        //         title: 'Blog V-2',
-        //         path: '/blog-v-2',
-        //         cName: 'sub-nav',
-        //     },
-        //     {
-        //         title: 'Blog Sidebar',
-        //         path: '/blog-sidebar',
-        //     },
-        //     {
-        //         title: 'Blog Sidebar',
-        //         path: '/blog-sidebar',
-        //     },
-        //     {
-        //         title: 'Blog Details',
-        //         path: '/blog-details',
-        //     },
-        // ],
-    },
+        
+    // },
     
     {
         title: 'Contact',

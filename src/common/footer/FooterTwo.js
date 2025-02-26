@@ -21,7 +21,7 @@ export default class FooterTwo extends React.Component {
                                                     <span className="icon-back-in-time"></span>
                                                 </div>
                                                 <div className="text">
-                                                    <p>Open Hours of Government: Mon - Fri: 8.00 am. - 6.00 pm.</p>
+                                                    <p>Working Hours: Mon - Fri: 10.00 am. - 5.00 pm.</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -29,7 +29,7 @@ export default class FooterTwo extends React.Component {
                                                     <span className="icon-place"></span>
                                                 </div>
                                                 <div className="text">
-                                                <p>Gandhi Heights, Vivekananda Nagar,<br/> Kukatpally, Telangana</p>
+                                                <p>Gandhi Heights, Vivekananda Nagar, Kukatpally, Telangana</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -37,7 +37,7 @@ export default class FooterTwo extends React.Component {
                                                     <span className="icon-call"></span>
                                                 </div>
                                                 <div className="text">
-                                                    <p><a href="tel:09969569535">099 695 695 35</a></p>
+                                                    <p><a href="tel:+914035576553">+914035576553</a></p>
                                                 </div>
                                             </li>
                                         </ul>
@@ -51,13 +51,13 @@ export default class FooterTwo extends React.Component {
                                 </div>
                                 <div className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                                     <div className="footer-widget__column footer-widget__service clearfix">
-                                        <h3 className="footer-widget__title">Service</h3>
+                                        <h3 className="footer-widget__title">Initiatives</h3>
                                         <ul className="footer-widget__service-list list-unstyled clearfix">
-                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Why choose us</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Our solutions</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Partners</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Core values</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/projects`}>Our projects</Link></li>
+                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Core Principles</Link></li>
+                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Project</Link></li>
+                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Partnerships</Link></li>
+                                            {/* <li><Link to={process.env.PUBLIC_URL + `/about`}>Core values</Link></li>
+                                            <li><Link to={process.env.PUBLIC_URL + `/projects`}>Our projects</Link></li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -65,11 +65,10 @@ export default class FooterTwo extends React.Component {
                                     <div className="footer-widget__column footer-widget__links clearfix">
                                         <h3 className="footer-widget__title">Quick Link</h3>
                                         <ul className="footer-widget__links-list list-unstyled clearfix">
-                                            <li><Link to={process.env.PUBLIC_URL + `/donate-now`}>How To Donate</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Business</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/donation`}>Online Service</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Visiting</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Employment</Link></li>
+                                           <li><Link to={process.env.PUBLIC_URL + `https://pages.razorpay.com/thegoodtalkfactoryfoundation`}> Donate </Link></li>
+                                            <li><Link to={process.env.PUBLIC_URL + `/`}>Programs</Link></li>
+                                            <li><Link to={process.env.PUBLIC_URL + `/volunteer`}>Volunteer/Intern</Link></li>
+                                            
                                         </ul>
                                     </div>
                                 </div>

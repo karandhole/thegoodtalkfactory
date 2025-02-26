@@ -162,7 +162,7 @@ export default class DonateOne extends React.Component {
                                     </div> */}
                                     <div className="donate-now__payment-info">
 
-                                        <h3 className="donate-now__title">Empowering voices, transforming lives—support meaningful conversations today!</h3>
+                                        <h3 className="donate-now__title">"Empower Change, One Contribution at a Time!"</h3>
                                         <form className="donate-now__payment-info-form">
                                             {/* <div className="row">
                                                 <div className="col-xl-6">

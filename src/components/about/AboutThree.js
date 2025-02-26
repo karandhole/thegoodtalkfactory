@@ -66,7 +66,7 @@ export default class AboutThree extends React.Component {
                                         <img src={publicUrl+"assets/images/services/about1.4.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><a href=' https://docs.google.com/forms/d/1yX7HG27u9TI2nONvLit4iaPng98JC9jKW3Q2z4LeNA0/viewform?edit_requested=true' target='_blank'>Want to Volunteer/Intern?  </a></h4>
+                                        <h4 className="team-one__name"><a href=' https://docs.google.com/forms/d/1yX7HG27u9TI2nONvLit4iaPng98JC9jKW3Q2z4LeNA0/viewform?edit_requested=true' target='_blank'>Want to volunteer/intern?  </a></h4>
                                    
                                        
                                     </div>

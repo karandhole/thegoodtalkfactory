@@ -24,7 +24,7 @@ const About = () => {
                 currentPage="About"
             /> */}
 
-            <VideoOne />
+            {/* <VideoOne /> */}
             <AboutOne />
             <CounterOne />
             {/* <ProjectOne />  */}

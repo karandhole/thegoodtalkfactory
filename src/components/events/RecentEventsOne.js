@@ -10,7 +10,7 @@ export default class RecentEventsOne extends React.Component {
                     <div className="container">
                         <div className="section-title text-center">
                             <span className="section-title__tagline">OUR IMPACT AREAS</span>
-                            <h2 className="section-title__title">Our Social Impact Verticals</h2>
+                            <h2 className="section-title__title">Key Focus Initiatives</h2>
                         </div>
                         <div className="row">
                             <div className="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="100ms">

@@ -38,7 +38,7 @@ export default class HeroThree extends React.Component {
                                     <div className="row">
                                         <div className="col-xl-12">
                                             <div className="main-slider__content">
-                                                <h2>"Live Your Story By Building Conversations And Transforming Lives"</h2>
+                                                <h2>"Live Your Story by Building Conversations and Transforming Lives"</h2>
                                                
                                                 
                                             </div>
@@ -58,7 +58,7 @@ export default class HeroThree extends React.Component {
                                     <div className="row">
                                         <div className="col-xl-12">
                                             <div className="main-slider__content">
-                                                <h2> "Everyone Has a Story And Every Story Is Worth Experiencing"<br/><br/>  </h2>
+                                                <h2> "Everyone Has a Story and Every Story is Worth Experiencing"<br/><br/>  </h2>
                                                 
                                             </div>
                                         </div>
@@ -77,7 +77,7 @@ export default class HeroThree extends React.Component {
                                     <div className="row">
                                         <div className="col-xl-12">
                                             <div className="main-slider__content">
-                                            <h2>"We Are HERE to HEAR You" <br/><br/></h2>
+                                            <h2>"We are HERE to HEAR You" <br/><br/></h2>
                                                 
                                             </div>
                                         </div>

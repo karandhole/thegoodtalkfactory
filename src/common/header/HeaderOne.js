@@ -17,11 +17,9 @@ export default class HeaderOne extends React.Component {
                                     <ul className="list-unstyled main-header__top-address">
 
                                         <li>
-                                            <div className="icon">
-                                                <span className="icon-envelope"></span>
-                                            </div>
+                                          
                                             <div className="text">
-                                                <p><a href="mailto:demo@example.com">thegoodtalkfactory@gmail.com</a></p>
+                                                <p><a href="mailto:demo@example.com">#TheGoodTalkFactoryFoundation &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   #PlatformForCommoners  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;    #LiveYourStory  &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;   #WeAreHereToHearYou</a></p>
                                             </div>
                                         </li>
 
@@ -38,9 +36,9 @@ export default class HeaderOne extends React.Component {
                                 </div>
                                 <div className="main-header__top-right">
                                     <ul className="list-unstyled main-header__top-right-content">
-                                        {/* <li><Link to={process.env.PUBLIC_URL + `/`}>Login</Link></li> */}
-                                        <li><Link to={process.env.PUBLIC_URL + `/`}><span className="icon-place"></span> <p style={{ paddingLeft: "4px" }}> <span ></span>Kukatpally, Hyderabad, Telangana</p></Link></li>
-                                        {/* <SearchButton /> */}
+                                       
+                                        <li><Link to={process.env.PUBLIC_URL + `/`}><p style={{ paddingLeft: "0px" }}> <span ></span>#TgtfProjectVidya</p></Link></li>
+                                      
                                     </ul>
                                 </div>
                             </div>

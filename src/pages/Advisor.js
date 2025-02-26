@@ -10,10 +10,10 @@ const Advisor = () => {
     return (
         <>
             <HeaderOne />
-            <Breadcrumb 
+            {/* <Breadcrumb 
                 heading="Team"
                 currentPage="Team" 
-            />
+            /> */}
             <TeamThree />
             <FooterTwo />
         </>

@@ -39,24 +39,19 @@ const Nav = () => {
                                 <Link to="/donate-now">Donate Now</Link>
                             </li>
                             <li className={location.pathname === '/donation-list' ? 'active' : ''}>
-                                <Link to="/donation-list">Donation List</Link>
+                                <Link to="#">Donation List</Link>                         
+
+                                {/* /donation-list */}
                             </li>
                         </ul>
                     </li>
                     <li className={location.pathname === '/events' ? 'active' : ''}>
                         <Link to="/events">Events</Link>
                     </li>
-                    <li className={`dropdown ${location.pathname.startsWith('/blog-v-1') ? 'active' : ''}`}>
+                    {/* <li className={`dropdown ${location.pathname.startsWith('/blog-v-1') ? 'active' : ''}`}>
                         <Link to="/">Blog</Link>
-                        {/* <ul>
-                            <li className={location.pathname === '/blog-v-1' ? 'active' : ''}>
-                                <Link to="/blog-v-1">Blog V-1</Link>
-                            </li>
-                            <li className={location.pathname === '/blog-v-2' ? 'active' : ''}>
-                                <Link to="/blog-v-2">Blog V-2</Link>
-                            </li>
-                        </ul> */}
-                    </li>
+                        
+                    </li> */}
                     <li className={location.pathname === '/contact' ? 'active' : ''}>
                         <Link to="/contact">Contact</Link>
                     </li>
