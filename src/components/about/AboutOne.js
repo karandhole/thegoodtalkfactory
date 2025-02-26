@@ -31,7 +31,7 @@ export default class AboutOne extends React.Component {
                                         </div>
                                         <div className="about-one__small-img wow zoomIn animated animated" data-wow-delay="500ms"
                                             data-wow-duration="2500ms">
-                                           <a href='https://pages.razorpay.com/thegoodtalkfactoryfoundation'  target='_blank'> <img src={publicUrl + "assets/images/services/about2.JPG"} style={{ height: "150px" }} alt="" /> </a>
+                                           <a href='https://pages.razorpay.com/thegoodtalkfactoryfoundation'  target='_blank'> <img src={publicUrl + "assets/images/services/about2.jpg"} style={{ height: "150px" }} alt="" /> </a>
                                         </div>
                                     </div>
                                 </div>
