@@ -107,7 +107,7 @@ export default class FaqOne extends React.Component {
                                 <div className="faq-one__right">
                                     <div className="faq-one__img wow slideInRight" data-wow-delay="100ms"
                                         data-wow-duration="2500ms">
-                                        <img src={publicUrl+"assets/images/resources/faq-1-1.png"} alt="" />
+                                        <img src={publicUrl+"assets/images/services/bg4.jpg"} alt="" />
                                     </div>
                                 </div>
                             </div>

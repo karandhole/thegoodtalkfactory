@@ -12,23 +12,28 @@ import BlogOne from '../components/blog/BlogOne';
 import FooterOne from '../common/footer/FooterOne';
 import FooterTwo from '../common/footer/FooterTwo';
 import CtaOne from '../components/cta/CtaOne';
+import FaqOne from '../components/faq/FaqOne';
+import AboutThree from '../components/about/AboutThree';
 
 const About = () => {
     return (
         <>
             <HeaderOne />
-            <Breadcrumb 
+            {/* <Breadcrumb
                 heading="About Us"
-                currentPage="About" 
-            />
+                currentPage="About"
+            /> */}
+
+            <VideoOne />
             <AboutOne />
             <CounterOne />
             {/* <ProjectOne />  */}
             {/* <SkillsOne /> */}
-            {/* <TeamOne /> */}
+            <AboutThree />
 
-            <CtaOne/>
-            <VideoOne />
+            {/* <CtaOne/> */}
+            {/* <FaqOne/> */}
+
             {/* <TestimonialOne /> */}
             {/* <BlogOne /> */}
             <FooterTwo />

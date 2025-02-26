@@ -3185,8 +3185,8 @@ a.sc-hLBbgP {
     position: relative;
     display: block;
     overflow: hidden;
-    margin-right: 2px;
-    margin-left: 2px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .team-one__img:before {
@@ -3382,7 +3382,7 @@ a.sc-hLBbgP {
     left: 135px;
     height: 390px;
     width: 390px;
-    background-color: var(--sopot-base);
+    /* background-color: var(--sopot-base); */
     border-radius: 50%;
     z-index: 2;
 }
@@ -4763,6 +4763,7 @@ a.sc-hLBbgP {
     height: 250px; /* Fixed height */
     overflow: hidden;
     z-index: 1;
+    
 }
 
 .recent-event__img img {
@@ -4770,6 +4771,7 @@ a.sc-hLBbgP {
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
+   
 }
 
 /* Content Box */
@@ -4844,6 +4846,11 @@ a.sc-hLBbgP {
 
 .section-title__title1 {
     font-size: 32px;
+    font-weight: 700;
+    color: #191919;
+}
+.section-title__title2 {
+    font-size: 20px;
     font-weight: 700;
     color: #191919;
 }

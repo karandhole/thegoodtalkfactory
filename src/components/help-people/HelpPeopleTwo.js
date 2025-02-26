@@ -54,7 +54,7 @@ export default class HelpPeopleTwo extends React.Component {
                                         </div>
                                         <div className="help-one__content">
                                             <h4>Transformation</h4>
-                                            <p>Through dialogue, we transform mindsets and social structures.</p>
+                                            <p>Through dialogue, we shape perspectives & drive change.</p>
                                         </div>
                                     </div>
                                 </div>

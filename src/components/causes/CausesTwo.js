@@ -112,8 +112,8 @@ export default class CausesTwo extends React.Component {
                                                 </div>
                                             </div> */}
                                         </div>
-                                    </li>
-
+                                    </li>      
+  
                                     {/* Skill Box */}
                                     <li className="progress-box ">
                                         <div className="inner count-box">
@@ -127,6 +127,21 @@ export default class CausesTwo extends React.Component {
                                                     <div className="bar-fill" data-percent="88"></div>
                                                 </div>
                                             </div> */}
+                                        </div>
+                                    </li>
+
+
+                                    <li className="progress-box ">
+                                        <div className="inner count-box">
+                                            <div className="text">Growing a strong volunteer network</div>
+                                            
+                                        </div>
+                                    </li>
+
+                                    <li className="progress-box ">
+                                        <div className="inner count-box">
+                                            <div className="text">Expanding impact through digital platform</div>
+                                            
                                         </div>
                                     </li>
                                 </ul>
