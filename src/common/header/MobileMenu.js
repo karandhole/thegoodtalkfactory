@@ -96,7 +96,7 @@ const menuData = [
     },
 
     {
-        title: 'Eventes',
+        title: 'Events',
         path: '/events',
     },
 
@@ -248,19 +248,19 @@ const MobileMenu = () => {
                             <ul className="mobile-nav__contact list-unstyled">
                                 <li>
                                     <i className="fa fa-envelope" aria-hidden="true"></i>
-                                    <a href="mailto:needhelp@packageName__.com">admin@thegoodtalkfactory.org</a>
+                                    <a href="mailto: thegoodtalkfactory@gmail.com"> thegoodtalkfactory@gmail.com</a>
                                 </li>
                                 <li>
                                     <i className="fa fa-phone" aria-hidden="true"></i>
-                                    <a href="tel:666-888-0000">+91 986 888 0000</a>
+                                    <a href="tel:+914035576553">+914035576553</a>
                                 </li>
                             </ul>
                             <div className="mobile-nav__top">
                                 <div className="mobile-nav__social">
-                                    <a href="https://twitter.com/"><span className="fab fa-twitter"></span></a>
-                                    <a href="https://facebook.com/"><span className="fab fa-facebook-square"></span></a>
-                                    <a href="https://pinterest.com/"><span className="fab fa-pinterest-p"></span></a>
-                                    <a href="https://instagram.com/"><span className="fab fa-instagram"></span></a>
+                                    <a href="https://www.linkedin.com/company/thegoodtalkfactory-foundation/about/?viewAsMember=true">  <i class="fab fa-linkedin"></i></a>
+                                    {/* <a href="https://facebook.com/"><span className="fab fa-facebook-square"></span></a>
+                                    <a href="https://pinterest.com/"><span className="fab fa-pinterest-p"></span></a> */}
+                                    <a href="https://www.instagram.com/thegoodtalkfactory?igsh=bWYzMmZzYTY2azky" target='_blank'><span className="fab fa-instagram"></span></a>
                                 </div>
                             </div>
                         </div>

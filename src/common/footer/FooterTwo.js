@@ -42,10 +42,11 @@ export default class FooterTwo extends React.Component {
                                             </li>
                                         </ul>
                                         <div className="footer-widget__social">
-                                            <a href="#"><i className="fab fa-facebook"></i></a>
-                                            <a href="#"><i className="fab fa-twitter"></i></a>
-                                            <a href="#"><i className="fab fa-pinterest-p"></i></a>
-                                            <a href="#"><i className="fab fa-instagram"></i></a>
+                                            <a href="https://www.linkedin.com/company/thegoodtalkfactory-foundation/about/?viewAsMember=true" target='_blank'> <i class="fab fa-linkedin"></i></a>
+                                           
+                                            {/* <a href="#"><i className="fab fa-twitter"></i></a>
+                                            <a href="#"><i className="fab fa-pinterest-p"></i></a> */}
+                                            <a href="https://www.instagram.com/thegoodtalkfactory?igsh=bWYzMmZzYTY2azky" target='_blank'><i className="fab fa-instagram"></i></a>
                                         </div>
                                     </div>
                                 </div>
